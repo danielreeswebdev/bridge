@@ -1,0 +1,1 @@
+$(".questions-carousel").slick({fade:!0});
