@@ -1,0 +1,27 @@
+// Brand Colours
+$primary: #DB2F20;
+$secondary: #5F259F;
+$success: #C7B3DD;
+$info: #00000029;
+$warning: #FFFFFF;
+
+$body-bg: white;
+$body-color: $success;
+
+// Grid
+$grid-columns:	24;
+
+// Containers
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1100px
+) !default;
+
+// Fonts
+$font-family-sans-serif: 'Inter', sans-serif;
+$font-family-base: $font-family-sans-serif !default;
+
+// Bootstrap and its default variables
+@import "../../../node_modules/bootstrap/scss/bootstrap";
