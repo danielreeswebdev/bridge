@@ -202,30 +202,10 @@ explicitly, e.g.
 
 
 h1 {
-	font-size: 35.9252px !important;
 	font-style: normal;
-	font-weight: 700 !important;
-	line-height: 43px;
-	letter-spacing: 0em;
-}
-
-h2 {
-	font-size: 35.9252px !important;
-	font-weight: 600 !important;
-	line-height: 43px;
-
-	&.h1 {
-		font-weight: 700 !important;
-	}
-}
-
-h4 {
-	font-size: 20.96px !important;
-	font-weight: 600 !important;
-	line-height: 25.36px !important;
-}
-
-ul {
-	padding-left: 15px;
-	font-weight: 700;
+  font-size: 24px;
+  color: $primary;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin-bottom: 3rem !important;
 }
